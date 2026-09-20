@@ -52,12 +52,9 @@ if __name__ == '__main__':
     wahrheitswert = True
     print("Boolean variable 'wahrheitswert':", wahrheitswert, "| Type:", type(wahrheitswert))
 
-    abc = False
-    print("Boolean variable abc :", abc, type(abc))
     # Output all variables together with descriptions
     print("\nSummary of all variables:")
     print(f"Integer 'zahl': {zahl}")
     print(f"Floating-point 'kommazahl': {kommazahl}")
     print(f"String 'text': {text}")
     print(f"Boolean 'wahrheitswert': {wahrheitswert}")
-    print(f"abc: {abc}")
